@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.2"
+  version: "2.3.0"
 
 package:
   name: nxsconfigtool
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsdesigner/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c7cfc447526fa548836ba0f9524fc0faca4f4e1d384530fbe0e82bec24f99f86
+  sha256: b164bbf5233a7602ebf7da3fef7fad23294f0e8fecf39264ffc3f9d59482710b
 
 build:
   noarch: python
